@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="40dp"
+    android:layout_height="55dp"
+    android:background="@drawable/listbackground"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/txtSubject"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:text="@string/bwm"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="10dp" />
+
+    <TextView
+        android:id="@+id/txtTeacher"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+        android:background="@color/lachs"
+        android:text="PEW"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="10dp" />
+
+    <TextView
+        android:id="@+id/txtRoom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+        android:text="217"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="10dp" />
+
+</LinearLayout>
